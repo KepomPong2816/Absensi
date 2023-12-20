@@ -27,7 +27,7 @@
                                 <td><?= $n < 10 ? '0' . $n++ : $n++; ?></td>
                                 <td>kode MK</td>
                                 <td>Paradigma</td>
-                                <td>5</td>
+                                <td>0</td>
                                 <td>
                                     <div class="dropdown">
                                         <a class="btn btn-secondary" id="button-edit" style="margin-right: 10px;" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">

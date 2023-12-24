@@ -18,7 +18,7 @@
                                 <i class="fas fa-cog"></i> Settings
                             </a>
                             <div class="dropdown-divider"></div>
-                            <a href="logout.php" class="dropdown-item has-icon text-danger"> <!-- base_url('auth/logout'); -->
+                            <a href="views/logout.php" class="dropdown-item has-icon text-danger"> <!-- base_url('auth/logout'); -->
                                 <i class="fas fa-sign-out-alt"></i> Logout
                             </a>
                         </div>
@@ -36,9 +36,9 @@
                     </div>
                     <ul class="sidebar-menu">
                         <li class="menu-header">Dashboard</li>
-                        <li><a class="nav-link" href="dashboard.php"><i class="fas fa-tachometer-alt"></i> <span>Dashboard</span></a></li>
+                        <li><a class="nav-link" href="views/dashboard.php"><i class="fas fa-tachometer-alt"></i> <span>Dashboard</span></a></li>
                         <li class="menu-header">Data Master</li>
-                        <li><a class="nav-link" href="pilihmk.php"><i class="fas fa-list"></i> <span>Mata Kuliah</span></a></li>
+                        <li><a class="nav-link" href="views/pilihmk.php"><i class="fas fa-list"></i> <span>Mata Kuliah</span></a></li>
                     </ul>
 
                 </aside>

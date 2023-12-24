@@ -94,7 +94,6 @@ if (isset($_SESSION['username'])) { // Jika session username ada berarti dia sud
                         <div class="form-outline mb-4">
                             <label class="form-label" for="form3Example3">Username</label>
                             <input type="email" id="form3Example3" class="form-control form-control-lg" placeholder="Username" />
-
                         </div>
 
                         <!-- Password input -->

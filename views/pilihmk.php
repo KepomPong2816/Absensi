@@ -1,10 +1,10 @@
-<?= include('partial/header.php'); ?>
+<?= include('views/partial/header.php'); ?>
 
 <body>
     <div id="app">
         <div class="main-wrapper">
 
-            <?= include('partial/sidebar.php'); ?>
+            <?= include('views/partial/sidebar.php'); ?>
             <div class="main-content">
                 <section class="section">
                     <div class="section-header">
@@ -49,4 +49,4 @@
     </div>
 </body>
 
-<?= include('partial/footer.php'); ?>
+<?= include('views/partial/footer.php'); ?>

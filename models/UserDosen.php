@@ -1,5 +1,12 @@
 <?php
-class UserModel {
+class UserDosen
+{
+    protected $table = 'dosen';
+	protected $primaryKey = 'nip';
+    protected $allowedFields = ['nip', 'password','email', 'nama', 'last_loggin', 'created_at'];
+
+}
+/* class UserModel {
     private $db;
 
     public function __construct($db) {
@@ -21,10 +28,9 @@ class UserModel {
 }
 
 
-//$host = 'localhost'; 
-//$username = 'root'; 
-//$password = ''; 
-//$database = 'db_pw';
+$host = 'localhost'; 
+$username = 'root'; 
+$password = ''; 
+$database = 'db_pw';
 
-//$pdo = new PDO('mysql:host='.$host.';dbname='.$database, $username, $password);
-?>
+$pdo = new PDO('mysql:host='.$host.';dbname='.$database, $username, $password); */
